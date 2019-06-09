@@ -1,0 +1,13 @@
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\bin\Debug\BellmansMethod.WPF.exe.config
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\bin\Debug\BellmansMethod.WPF.exe
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\bin\Debug\BellmansMethod.WPF.pdb
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\MainWindow.g.cs
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\App.g.cs
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\BellmansMethod.WPF_MarkupCompile.cache
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\BellmansMethod.WPF_MarkupCompile.lref
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\MainWindow.baml
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\BellmansMethod.WPF.g.resources
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\BellmansMethod.WPF.Properties.Resources.resources
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\BellmansMethod.WPF.csproj.GenerateResource.Cache
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\BellmansMethod.WPF.exe
+D:\Project\C#\[Projects]\[Project]\BellmansMethod.WPF\BellmansMethod.WPF\obj\Debug\BellmansMethod.WPF.pdb

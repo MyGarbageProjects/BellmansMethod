@@ -1,0 +1,36 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BellmansMethod.WPF"
+        xmlns:Properties="clr-namespace:BellmansMethod.WPF.Properties" x:Class="BellmansMethod.WPF.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="273" Width="710" WindowStyle="ToolWindow" ResizeMode="CanMinimize">
+    <Grid x:Name="MainGrid">
+        <GroupBox Header="Ограничения" HorizontalAlignment="Left" Height="120" Margin="175,17,0,0" VerticalAlignment="Top" Width="131"/>
+        <Label Content="N:" HorizontalAlignment="Left" Margin="195,40,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtN" HorizontalAlignment="Left" Height="23" Margin="221,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <Label Content="A:" HorizontalAlignment="Left" Margin="195,67,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtA" HorizontalAlignment="Left" Height="23" Margin="221,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <Label Content="g(x)" HorizontalAlignment="Left" Margin="188,96,0,0" VerticalAlignment="Top"/>
+        <TextBox  Name="txtgx" HorizontalAlignment="Left" Height="23" Margin="221,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+
+
+        <GroupBox Header="Исходная таблица" HorizontalAlignment="Left" Height="229" VerticalAlignment="Top" Width="318"/>
+        <DataGrid x:Name="DataViewer" AutoGenerateColumns="True" ItemsSource="{Binding Matrix}"
+                  HeadersVisibility="Column"  RowHeaderWidth="1"
+                  CanUserAddRows="False" CanUserDeleteRows="False" Margin="10,25,0,0" HorizontalAlignment="Left" Width="160" Height="151" VerticalAlignment="Top" />
+        <Button x:Name="btnLoadTable" Content="Загрузить таблицу" Margin="10,181,0,0" Click="btnLoadTable_Click" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="160"/>
+
+        <GroupBox Header="Решение" HorizontalAlignment="Left" Height="229" Margin="323,0,0,0" VerticalAlignment="Top" Width="370"/>
+        <DataGrid x:Name="DataViewerResult" AutoGenerateColumns="True" ItemsSource="{Binding Matrix}"
+                  HeadersVisibility="Column"  RowHeaderWidth="1"
+                  CanUserAddRows="False" CanUserDeleteRows="False" Margin="332,25,0,0" HorizontalAlignment="Left" Width="180" Height="176" VerticalAlignment="Top" />
+        <Button x:Name="btnStart"  Content="Рассчитать" HorizontalAlignment="Left" Margin="175,142,0,0" VerticalAlignment="Top" Width="131" Height="27" Visibility="Hidden"  Click="btnStart_Click"/>
+        <Label Name="lblResult"  Content="f*= " HorizontalAlignment="Left" Margin="333,201,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtLOG" HorizontalAlignment="Left" Margin="525,25,0,0" TextWrapping="Wrap" Width="158" Height="176" VerticalAlignment="Top"/>
+        <Label Content="Лог:" HorizontalAlignment="Left" Margin="525,3,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
